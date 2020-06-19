@@ -46,7 +46,7 @@ def complete(buildStatus)
 node('master') 
 {
   timeout(time: 1, unit: 'HOURS')
-  tool name: 'maven-latest', type: 'maven'
+//   tool name: 'maven-latest', type: 'maven'
   {
   try {
          stage ("Code Checkout") 
